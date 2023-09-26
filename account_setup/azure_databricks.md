@@ -1,11 +1,11 @@
 ### MS Azure & Databricks Account setup
 
 1. Go to https://azure.microsoft.com/en-us/free/students and click `Start free` button.
-   ![](/assets/azure_1.PNG)
+   ![](./assets/azure_1.PNG)
 
 2. Log-in with your ČVUT `email` and `password`.
 3. Fill in Student Verification and Profile forms:
-   ![](/assets/azure_signup_1.PNG)
+   ![](BDT_2023/account_setup/assets/azure_1.PNG)
    ![](/assets/azure_signup_2.PNG)
    ![](/assets/azure_signup_3.PNG)
 
