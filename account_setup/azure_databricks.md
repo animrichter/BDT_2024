@@ -24,9 +24,9 @@
 
 6. Fill out following fields, create a new Resource group if needed.
 
-- **Subscription**: Azure for Students
-- **Region**: West Europe
-- **Pricing Tier**: Standard
+- **Subscription**: `Azure for Students`
+- **Region**: `West Europe`
+- **Pricing Tier**: `Standard`
 
 ![](./assets/azure_6.PNG)
 ![](./assets/azure_7.PNG)
