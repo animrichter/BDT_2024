@@ -6,9 +6,11 @@
 2. Log-in with your ČVUT `email` and `password`.
 3. Fill in Student Verification and Profile forms:
 
-![](./assets/azure_signup_2.PNG)
+![](./assets/azure_signup_1.png)
 
-![](./assets/azure_signup_3.PNG)
+![](./assets/azure_signup_2.png)
+
+![](./assets/azure_signup_3.png)
 
 4. Once Azure account is created, click **Create a resource** in a panel of Azure services and search for `Databricks`
 
