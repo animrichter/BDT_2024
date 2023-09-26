@@ -5,7 +5,7 @@
 
 2. Log-in with your ČVUT `email` and `password`.
 3. Fill in Student Verification and Profile forms:
-   ![](BDT_2023/account_setup/assets/azure_1.PNG)
+![](BDT_2023/account_setup/assets/azure_1.PNG)
    ![](/assets/azure_signup_2.PNG)
    ![](/assets/azure_signup_3.PNG)
 
