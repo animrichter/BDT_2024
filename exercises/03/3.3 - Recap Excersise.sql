@@ -1,0 +1,10 @@
+-- Databricks notebook source
+-- MAGIC %md
+-- MAGIC ### RECAP EXERCISE
+-- MAGIC <br/>
+-- MAGIC
+-- MAGIC - Explore weather dataset located at **dbfs:/databricks-datasets/weather/**
+-- MAGIC - Read high_temps and low_temps data into separate Dataframes
+-- MAGIC - Add postfix _high / _low to **temp** column in each Dataframe
+-- MAGIC - Create a new Dataframe with values from previously created ones (use JOIN)
+-- MAGIC - List the average highest and lowest temperature of each month. Sort the results in descending order and give the temperatures in degrees Celsius.
