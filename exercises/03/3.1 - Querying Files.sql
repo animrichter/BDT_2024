@@ -9,7 +9,7 @@
 -- COMMAND ----------
 
 -- MAGIC %python
--- MAGIC # replace <username> with your databricks repositary name.
+-- MAGIC # replace <username> with your databricks repository name.
 -- MAGIC # "file:" prefix and absolute file path are required for PySpark
 -- MAGIC repo_user = "<username>"
 -- MAGIC repo_abs_path = f"file:/Workspace/Repos/{repo_user}/BDT_2023/"
