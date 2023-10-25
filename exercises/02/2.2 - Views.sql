@@ -7,7 +7,7 @@
 -- MAGIC Two types of temporary views can be created:
 -- MAGIC
 -- MAGIC **Session scoped temporary view**:
--- MAGIC - is only available with a spark session, so another notebook in the same cluster can not access it. 
+-- MAGIC - is only available within a spark session, so another notebook in the same cluster can not access it.
 -- MAGIC - if a notebook is detached and re attached the temporary view is lost.
 -- MAGIC
 -- MAGIC **Global temporary view** 
