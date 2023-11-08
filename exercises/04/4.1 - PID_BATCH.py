@@ -22,9 +22,17 @@
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC
-# MAGIC CREATE TABLE AS SELECT
-# MAGIC MERGE INTO
+# MAGIC #### Hints
+# MAGIC  - CREATE TABLE AS SELECT https://docs.databricks.com/en/sql/language-manual/sql-ref-syntax-ddl-create-table-using.html
+# MAGIC  - Query semi-structured data https://docs.databricks.com/en/optimizations/semi-structured.html
+# MAGIC  - INSERT INTO https://docs.databricks.com/en/sql/language-manual/sql-ref-syntax-dml-insert-into.html
+# MAGIC  - MERGE INTO https://docs.databricks.com/en/sql/language-manual/delta-merge-into.html
+
+# COMMAND ----------
+
+repo_user = "<username>"
+repo_abs_path = f"file:/Workspace/Repos/{repo_user}/BDT_2023/"
+pid_files = dbutils.fs.ls(f"{repo_abs_path}/data/pid-batch")
 
 # COMMAND ----------
 
@@ -37,3 +45,32 @@
 # MAGIC ### 4. Find the average speed for every type of vehicle - is there anything wrong?
 # MAGIC ### 5. Find the number of busses, for which their average delay on trip was smaller, then 60 seconds.
 # MAGIC
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC ----
+# MAGIC visualisation with osmnx
+
+# COMMAND ----------
+
+# MAGIC %pip install osmnx
+
+# COMMAND ----------
+
+import osmnx as ox
+import matplotlib.pyplot as plt
+
+# Specify the location (in this case, Prague, Czech Republic)
+place_name = "Prague, Czech Republic"
+
+custom_filter = '["highway"~"motorway|motorway_link|trunk|trunk_link|primary|primary_link|secondary|secondary_link|road|road_link"]'
+
+# Fetch the street network for Prague
+G = ox.graph_from_place(place_name, network_type="drive", custom_filter=custom_filter)
+
+# COMMAND ----------
+
+# Plot the street network
+ox.plot_graph(ox.project_graph(G), node_size=0)
+plt.show()
