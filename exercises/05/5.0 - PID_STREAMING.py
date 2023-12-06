@@ -16,7 +16,7 @@
 # MAGIC - Číst PID data pomocí kafka consumeru
 # MAGIC - Z načtených dat identifikovat atributy (1. , 2. , ..) https://api.golemio.cz/v2/pid/docs/openapi/#/
 # MAGIC - Vytvořit tabulky Bronze - Silver
-# MAGIC - Gold: Rozdělení podle typu prostředku / průměrné zpoždění/celkové, kolik km ujede jeden bus za den...)
+# MAGIC - Gold: Rozdělení podle typu prostředku / průměrné zpoždění/ celkové, kolik km ujede jeden bus za den...)
 # MAGIC - z Gold tabulek vytvořit přehledný dashboard
 
 # COMMAND ----------
