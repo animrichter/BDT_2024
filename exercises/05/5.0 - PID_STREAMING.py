@@ -21,7 +21,7 @@
 
 # COMMAND ----------
 
-bootstrap = "b-3.felpidkafka.vi270o.c2.kafka.eu-central-1.amazonaws.com:9096,b-2.felpidkafka.vi270o.c2.kafka.eu-central-1.amazonaws.com:9096,b-1.felpidkafka.vi270o.c2.kafka.eu-central-1.amazonaws.com:9096"
+bootstrap = "b-2-public.felpidkafka.vi270o.c2.kafka.eu-central-1.amazonaws.com:9196,b-3-public.felpidkafka.vi270o.c2.kafka.eu-central-1.amazonaws.com:9196,b-1-public.felpidkafka.vi270o.c2.kafka.eu-central-1.amazonaws.com:9196"
 topic = "FelPidTopic"
 
 raw = (
