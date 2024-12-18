@@ -98,11 +98,12 @@ checkpoint = '/mnt/pid/checkpoint_file.txt'
 # MAGIC
 # MAGIC =======================================================================================================================================
 # MAGIC
-# MAGIC Zadání: Proveďte analýzu zpoždění různých typů dopravních prostředků (autobusy, tramvaje, metro, vlaky) v průběhu celého dne. Porovnejte průměrné zpoždění pro každý typ vozidla a zjistěte, jak se mění v 2 hod. časových intervalech. Výsledky zobrazte v grafu. Jako další krok identifikujte 3 místa s největším průměrným zpožděním pro daný typ dopravního prostředku a vizualizujte je na mapě.
+# MAGIC Zadání A: Proveďte analýzu zpoždění různých typů dopravních prostředků (autobusy, tramvaje, metro, vlaky) v průběhu celého dne. Porovnejte průměrné zpoždění pro každý typ vozidla a zjistěte, jak se mění v 2 hod. časových intervalech. Výsledky zobrazte v grafu. Jako další krok identifikujte 3 místa s největším průměrným zpožděním pro daný typ dopravního prostředku a vizualizujte je na mapě.
 # MAGIC Cíl: Odhalit vzorce v zpoždění různých typů dopravních prostředků a lokalizovat klíčová místa, kde k nim dochází.
 # MAGIC
 # MAGIC ============================================================================================================================
-# MAGIC Zadání: Proveďte analýzu zpoždění různých typů dopravních prostředků (autobusy, tramvaje, metro, vlaky) v průběhu celého dne. Porovnejte průměrné zpoždění pro každý typ vozidla a zjistěte, jak se mění v 3 hod. časových intervalech. Výsledky zobrazte v grafu. Jako další krok identifikujte 3 místa s nejmenším průměrným zpožděním pro daný typ dopravního prostředku a vizualizujte je na mapě.
+# MAGIC 
+# MAGIC Zadání B: Proveďte analýzu zpoždění různých typů dopravních prostředků (autobusy, tramvaje, metro, vlaky) v průběhu celého dne. Porovnejte průměrné zpoždění pro každý typ vozidla a zjistěte, jak se mění v 3 hod. časových intervalech. Výsledky zobrazte v grafu. Jako další krok identifikujte 3 místa s nejmenším průměrným zpožděním pro daný typ dopravního prostředku a vizualizujte je na mapě.
 # MAGIC Cíl: Odhalit vzorce v zpoždění různých typů dopravních prostředků a lokalizovat klíčová místa, kde k nim dochází.
 # MAGIC
 # MAGIC =============================================================================================================================
